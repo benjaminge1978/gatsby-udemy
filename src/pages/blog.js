@@ -7,6 +7,7 @@ const blog = ({ data }) => {
   return (
     <Layout>
       <StyledHero img={data.blogBcg.childImageSharp.fluid} />
+      <Link to ="/">Dummy</Link>
     </Layout>
   )
 }
